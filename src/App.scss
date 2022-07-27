@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+$violet: #654f6f;
+$blue: #5c5d8d;
+$grey: #99a1a6;
+$eton: #a8c69f;
+
+.hero-container {
+    background-color: $eton;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-top: 1.5%;
+    }
+    .title {
+        margin: 0;
+        margin-left: 8%;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    background-color: $blue;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 18%; 
+
+    h3 {
+        color: white;
+        padding: 8px;
+        text-shadow: 1px 1px black;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .icon {
+        padding-right: 5px;
+        text-shadow: 3px 6px black;
+    }
+
+    p, .contact-icon {
+        color: white;
+        text-shadow: 1px 1px black;
+        margin: 15px;
+        margin-top: 0;
+        font-size: smaller;
+        padding: 3px;
+    }
+
+    .profile {
+        border-bottom: 3px solid black;
+    }
+
+    .contact {
+        padding-bottom: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.right-container {
+    background-color: rgb(201, 201, 201);
+    width: 70%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 18%; 
+}
