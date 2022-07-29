@@ -21,7 +21,7 @@ const Right = () => {
 
             <div className='education'>
                 <h3><FontAwesomeIcon icon={faBuildingColumns}  className='icon'/>Education</h3>
-                <p>Associates of Science</p>
+                <p>Associates of Science - 3.94 GPA</p>
                 <p className='date'>August 2019 - March 2021</p>
                 <p>Major in Mechanical Engineering, Columbia State College</p>
                 <p>5 Consecutive Semesters on the Dean's List</p>
